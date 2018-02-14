@@ -86,7 +86,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	__webpack_require__(74);
 	__webpack_require__(75);
 	__webpack_require__(76);
-	__webpack_require__(77);
+	__webpack_require__(78);
 	__webpack_require__(79);
 	__webpack_require__(80);
 	__webpack_require__(81);
@@ -6494,8 +6494,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	        var doc2 = {};
 	        for (var key in doc) {
 	            if (doc[key] instanceof _CB2.default.CloudFile) doc2[key] = _CB2.default._clone(doc[key], doc[key].document._id);else if (doc[key] instanceof _CB2.default.CloudObject) {
-	                doc2[key] = _CB2.default._clone(doc[key], null);
-	            } else if (doc[key] instanceof _CB2.default.CloudQueue) {
 	                doc2[key] = _CB2.default._clone(doc[key], null);
 	            } else if (doc[key] instanceof _CB2.default.QueueMessage) {
 	                doc2[key] = _CB2.default._clone(doc[key], null);
