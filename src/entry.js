@@ -30,7 +30,6 @@ require('./CloudRole')
 require('./CloudEvent')
 require('./CloudUser')
 require('./CloudNotification')
-require('./CloudPush')
 require('./CloudQuery')
 
 try {

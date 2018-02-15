@@ -20,7 +20,6 @@ module.exports = function(grunt) {
                     'src/CloudGeoPoint.js',
                     'src/CloudTable.js',
                     'src/Column.js',
-                    'src/CloudPush.js',
                     'src/CloudUser.js',
                     'src/CloudEvent.js'
                 ],
@@ -40,7 +39,6 @@ module.exports = function(grunt) {
                     'test/CloudUser/userTest.js',
                     'test/CloudEvent/test.js',
                     'test/CloudDevice/deviceTest.js',
-                    'test/CloudPush/pushSend.js',
                     'test/CloudObject/test.js',
                     'test/CloudObject/bulkApi.js',
                     'test/CloudObject/file.js',

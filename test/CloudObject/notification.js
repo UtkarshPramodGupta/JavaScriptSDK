@@ -96,6 +96,7 @@ describe("Cloud Objects Notification", function () {
 	});
 
 	it("should alert when the object is deleted.", function (done) {
+		console.log("hi");
 
 		this.timeout(50000);
 
